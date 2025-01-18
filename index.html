@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Introduction to bootstrap.</title>
+        <style>
+            .col {
+                text-align: center;
+                border: 10px darkblue dashed;
+                box-shadow: 10px 10px 10px;
+                width: 200px;
+                height: 200px;
+                font-size: 30px;
+                font-style: italic;
+                font-weight: bolder;
+                text-shadow: 2px 4px 2px green;
+                background-color: brown;
+            }
+            .col-sm{
+                text-align: center;
+                border: 1px solid black;
+            }
+        </style>
+        
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body style="background-color:pink;">
+        <center>
+            <h3>Equal width column grid.</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col">HELLO</div>
+                    <div class="col">There</div>
+                    <div class="col">How are you?</div>
+                    
+                </div>
+            </div>
+            <br>
+            <br>
+            <h4>Columns.</h4>
+            <div class="class">
+                <div class="row">
+            <div
+            class="col-sm">Column 1</div>
+            <div class="col-sm">Column 2</div>
+            <div class="col-sm">Column 3</div>
+            </div>
+            </div>
+            <br>
+            <div class="container-fluid">
+                <h4>Large Grid.</h4>
+                <p>Dummy data.</p>
+                <div class="row">
+                    <div class="col-lg-4" style="background-color: purple;">Dummy</div>
+                    <div class="col-lg-8" style="background-color: yellow;">Dummy</div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <h1>Resize your grid.</h1>
+            <div class="container">
+                <div class="row">
+                    <!--Size Medium and extra small-->
+                    <div class="col-md-8 col-xs-4" style="background-color: red; border: 1px black solid;">xs</div>
+                    <div class="col-md-12 col-md-5" style="background-color: lavender; border: salmon solid;">.col-xs-3</div>
+                </div>
+            </div>
+            <br>
+            
+
+        
+        
+            
+        </center>
+    </body>
+</html>
